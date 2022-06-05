@@ -186,4 +186,51 @@
     justify-content: space-around;
     margin-top: 10rem;
 }
+/*Contact style*/
+.contact{
+    background-color:white;
+    height: 100vh;
+    color: black;
+    font-family: sans-serif;
+}
+.contact-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 7rem 0rem 7rem 0rem;
+}
+.me{
+    font-family: 'Ubuntu';
+    font-size: xx-large;
+}
+.get-touch{
+    font-family: 'sans-serif';
+    color:crimson ;
+    margin-top: 1rem;
+}
+.get{
+    font-family: 'sans-serif';
+    margin: 1rem 8rem;
+}
+.get .in-touch p{
+       font-size:xx-large ;
+       margin-bottom: 1rem;
+}
+.in-touchmessage{
+    margin-bottom: 7px;
+}
+.in-touchmessagel{
+    margin-bottom: 2rem;
+}
+.name{
+    margin-bottom: 2rem;
+}
+.adress{
+    margin-bottom: 2rem;
+}
+.email{
+    margin-bottom: 1rem;
+}
 
