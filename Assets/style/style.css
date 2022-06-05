@@ -8,19 +8,20 @@
 .navbar{
     position: fixed;
     width: 100%;
-    /* background: crimson; */
-    font-family: sans-serif;
+    background: crimson; 
+    font-family: 'Ubuntu';
     padding: 15px 0;
     transition: all 0.3s ease;
+    border-radius: 5px 0px 5px 0px;
     
 }
-.navbar.sticky{
+/* .navbar.sticky{
     padding: 15px 0;
     background: crimson;
 }
 .navbar.sticky.logo span{
     color: white;
-}
+} */
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -39,7 +40,7 @@
     
 }
 .navbar .logo span{
-    color: crimson; 
+    color: black; 
     transition: all 0.3s ease;
 }
 .navbar .menu li{
@@ -54,7 +55,7 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: black;
 }
 
 /*Home section style*/
@@ -85,3 +86,51 @@
     color: crimson;
     font-weight: 500;
 }
+/*About me style*/
+.about{
+    background-color: white;
+    height: 100vh;
+    color: black;
+    font-family: sans-serif;
+    /* min-height: 500px; */
+}
+.about-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    margin: 0px 0px 80px 0px;
+    padding: 50px 30px 30px 30px;
+}
+.about-me{
+    font-family: 'Ubuntu';
+    font-size: xx-large;
+}
+.whoami{
+    font-family: 'sans-serif';
+    color:crimson ;
+}
+.image-1{
+    width: 600px;
+    height: 400px;
+    margin-left: 5rem; 
+    box-shadow: 2px 2px 7px gray;
+    border-radius: 20px 0px 20px 0px;
+    /* border:solid  red; */
+}
+.photo-box{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    margin-right: 12rem;
+    /* border:solid  red; */
+    margin-left: 0px;
+    padding: 60px 2px;
+    font-style: italic;
+}
+.about-detail{
+    padding: 10px;
+}
+
