@@ -110,6 +110,7 @@
 .whoami{
     font-family: 'sans-serif';
     color:crimson ;
+    margin-top: 0.5rem;
 }
 .image-1{
     width: 600px;
@@ -125,12 +126,64 @@
 }
 .description{
     margin-right: 12rem;
-    /* border:solid  red; */
+    /* border:solid  red;  */
     margin-left: 0px;
-    padding: 60px 2px;
+    padding: 30px 2px;
     font-style: italic;
 }
 .about-detail{
     padding: 10px;
+}
+.cv{
+    background-color: crimson;
+    font-style: normal;
+    color: white;
+    padding: 1rem;
+    margin: 3rem 11rem;
+    font-family: 'Ubuntu';
+    border-radius: 10px 0px 10px 0px;
+}
+/*Services style*/
+.services{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+}
+.service-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 80px 0px;
+    padding: 8rem 30px 30px 8rem;
+}
+.my-services{
+    font-family: 'Ubuntu';
+    font-size: xx-large;
+}
+.provide{
+    font-family: 'sans-serif';
+    color:crimson ;
+    margin-top: 0.5rem;
+}
+.skills-components{
+    background-color: rgb(22, 21, 21);
+    border-radius: 50px 0px 50px 0px;
+}
+.web-title{
+    color: crimson;
+    font-family: 'Ubuntu';
+    font-size: xx-large;
+    padding: 2rem;
+}
+.decription{
+    color: white;
+    padding: 1rem;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
 }
 
