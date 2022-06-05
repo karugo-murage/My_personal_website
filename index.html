@@ -98,14 +98,15 @@
              </div>
              <div class="message">
                  <div class="messageme">Message me</div>
-                 <form action="">
-                     <input type="text" placeholder="Enter your name"> 
-                     <input type="text" placeholder="Enter your email"> <br>
-                     <input class="in1" type="text" placeholder="Subject"> <br>
-                     <textarea name="" id="" cols="30" rows="10" placeholder="Message">
+                 
+                 <form action="" onsubmit="thankYou()">
+                     <input type="text" placeholder="Enter your name" required> 
+                     <input type="text" placeholder="Enter your email" required> <br>
+                     <input class="in1" type="text" placeholder="Subject" required> <br>
+                     <textarea name="" id="" cols="30" rows="10" placeholder="Message" required>
                      </textarea>
+                     <input type="submit" class="send">
                  </form>
-                 <div class="send">Send Message</div>
              </div>
          </div>
      </section>

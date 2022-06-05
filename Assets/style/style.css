@@ -61,11 +61,16 @@
 /*Home section style*/
 .home{
     display: flex;
-    background-color: black;
+    /* background-color: black; */
     height: 100vh;
     color: white;
     font-family: sans-serif;
     min-height: 500px;
+    background-image: url(https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?cs=srgb&dl=pexels-mati-mango-5952651.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.9; */
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -113,9 +118,9 @@
     margin-top: 0.5rem;
 }
 .image-1{
-    width: 600px;
+    width: 400px;
     height: 400px;
-    margin-left: 5rem; 
+    margin-left: 12rem; 
     box-shadow: 2px 2px 7px gray;
     border-radius: 20px 0px 20px 0px;
     /* border:solid  red; */
